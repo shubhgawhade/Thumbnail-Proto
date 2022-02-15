@@ -24,9 +24,9 @@ public class CreatePost : MonoBehaviour
 
     private void PostImage()
     {
-        GameObject a = Instantiate(postPrefab, scrollable.transform.position, Quaternion.identity);
-        a.transform.parent = scrollable.transform;
-        newPost = a.AddComponent<Post>();
+        GameObject tempPost = Instantiate(postPrefab, scrollable.transform.position, Quaternion.identity);
+        tempPost.transform.parent = scrollable.transform;
+        newPost = tempPost.AddComponent<Post>();
         
         newPost.hash = GenerateHash();
         // AppManager.Hashes.Add(newPost.hash);

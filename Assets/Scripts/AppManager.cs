@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class AppManager : MonoBehaviour
 {
@@ -52,7 +51,6 @@ public class AppManager : MonoBehaviour
             Coins = data.coins;
             
             // print("MENU");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {

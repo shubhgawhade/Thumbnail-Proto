@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HomePage.unity
     guid: 5fcefc9d73cd3c9419ca3d780b857473
+  - enabled: 1
+    path: Assets/Scenes/CreatePost.unity
+    guid: 80ec0d23ba94ca946913b5e9182b33e6
   m_configObjects: {}

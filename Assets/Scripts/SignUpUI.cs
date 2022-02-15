@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SignUpUI : MonoBehaviour
@@ -45,6 +46,7 @@ public class SignUpUI : MonoBehaviour
         
         PersistentSave.Save();
         ActionLogIn();
+        SceneManager.LoadScene("HomePage");
     }
 
     public void BecomeCreator()
