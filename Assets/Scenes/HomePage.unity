@@ -340,6 +340,7 @@ MonoBehaviour:
   postPrefab: {fileID: 5132931907063968732, guid: 228d62d40d669e040b44c554db2e78aa, type: 3}
   postImage: {fileID: 0}
   postDescription: {fileID: 1163958657}
+  scrollable: {fileID: 1375687493}
 --- !u!4 &598224555 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5132931907063968733, guid: 228d62d40d669e040b44c554db2e78aa, type: 3}

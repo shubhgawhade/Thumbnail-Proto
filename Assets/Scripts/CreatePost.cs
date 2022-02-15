@@ -52,4 +52,9 @@ public class CreatePost : MonoBehaviour
         
         return hash1;
     }
+
+    private void OnDisable()
+    {
+        HomePageUI.Post -= PostImage;
+    }
 }
